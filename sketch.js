@@ -119,6 +119,8 @@ function draw() {
     gameOver.visible = true;
     restart.visible = true;
     
+    text("press space to restart", 300,200);
+    
     //set velcity of each game object to 0
     ground.velocityX = 0;
     trex.velocityY = 0;
